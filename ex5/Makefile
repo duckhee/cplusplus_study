@@ -1,6 +1,6 @@
 CPP = g++
 
-CPPSRCS = ClassInit.cpp ShallowCopyError.cpp PassObjCopycon.cpp ReturnObjCopycon.cpp
+CPPSRCS = ClassInit.cpp ShallowCopyError.cpp PassObjCopycon.cpp ReturnObjCopycon.cpp IKnowTempOb.cpp
 
 BUILDDIR = build
 
