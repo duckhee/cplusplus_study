@@ -1,6 +1,6 @@
 CPP = g++
 
-CPPSRCS = ConstObject.cpp ConstOverloading.cpp
+CPPSRCS = ConstObject.cpp ConstOverloading.cpp MyFriendClass.cpp
 
 BUILDDIR = build
 
