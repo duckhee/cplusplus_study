@@ -1,6 +1,7 @@
 CPP = g++
 
-CPPSRCS = ConstObject.cpp ConstOverloading.cpp MyFriendClass.cpp MyFriendFunction.cpp
+CPPSRCS = ConstObject.cpp ConstOverloading.cpp MyFriendClass.cpp MyFriendFunction.cpp CComstatic.cpp \
+          NeedGrobal.cpp
 
 BUILDDIR = build
 
