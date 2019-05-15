@@ -1,7 +1,7 @@
 CPP = g++
 
 CPPSRCS = ConstObject.cpp ConstOverloading.cpp MyFriendClass.cpp MyFriendFunction.cpp CComstatic.cpp \
-          NeedGrobal.cpp
+          NeedGrobal.cpp StaticMember.cpp
 
 BUILDDIR = build
 
