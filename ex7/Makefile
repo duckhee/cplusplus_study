@@ -1,6 +1,6 @@
 CPP = c++
 
-CPPSRCS = EmployeeManager1.cpp UnivStudentInheri.cpp
+CPPSRCS = EmployeeManager1.cpp UnivStudentInheri.cpp DerivCreOrderp.cpp
 
 BUILDDIR = build
 
