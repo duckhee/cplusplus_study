@@ -1,7 +1,8 @@
 CPP = g++
 
 CPPSRCS = ConstObject.cpp ConstOverloading.cpp MyFriendClass.cpp MyFriendFunction.cpp CComstatic.cpp \
-          NeedGrobal.cpp StaticMember.cpp
+          NeedGrobal.cpp StaticMember.cpp PublicStaticMember.cpp ConstStaticMember.cpp Mutable.cpp \
+		  BankingSystemVer04.cpp
 
 BUILDDIR = build
 
