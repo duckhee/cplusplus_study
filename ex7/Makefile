@@ -1,7 +1,7 @@
 CPP = c++
 
 CPPSRCS = EmployeeManager1.cpp UnivStudentInheri.cpp DerivCreOrderp.cpp DerivDestOrder.cpp \
-		  ProtectedHeri.cpp ISAinheritance.cpp
+		  ProtectedHeri.cpp ISAinheritance.cpp HASInheritance.cpp
 
 BUILDDIR = build
 
