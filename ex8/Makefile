@@ -1,6 +1,6 @@
 CPP = c++
 
-CPPSRCS = 
+CPPSRCS = ObjectPointer.cpp EmployeeManager2.cpp 
 
 BUILDDIR = build
 
@@ -17,7 +17,7 @@ createdirs:
 build:$(CPPOBJS)
 
 $(CPPOBJS):$(BUILDDIR)/%.o:%.cpp
-	$(CPP) $@ -o $<
+	$(CPP) -o $@ $<
 
 clean:
 	rm -rf $(BUILDDIR)
