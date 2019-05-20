@@ -1,6 +1,6 @@
 CPP = g++
 
-CPPSRCS = RealObjUnder1.cpp RealObjUnder2.cpp
+CPPSRCS = RealObjUnder1.cpp RealObjUnder2.cpp VirtualInternal.cpp
 
 BUILDDIR = build
 
