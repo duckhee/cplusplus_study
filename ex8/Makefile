@@ -1,6 +1,7 @@
 CPP = c++
 
-CPPSRCS = ObjectPointer.cpp EmployeeManager2.cpp EmployeeManager3.cpp EmployeeManager4.cpp RefereAttribute.cpp
+CPPSRCS = ObjectPointer.cpp EmployeeManager2.cpp EmployeeManager3.cpp EmployeeManager4.cpp RefereAttribute.cpp \
+          FunctionOverride.cpp FunctionVirtualOverride.cpp VirtualDestructor.cpp 
 
 BUILDDIR = build
 
