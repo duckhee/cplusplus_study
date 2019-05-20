@@ -1,6 +1,6 @@
 CPP = g++
 
-CPPSRCS = 
+CPPSRCS = RealObjUnder1.cpp RealObjUnder2.cpp
 
 BUILDDIR = build
 
@@ -16,7 +16,7 @@ createdirs:
 build: $(CPPOBJS)
 
 $(CPPOBJS):$(BUILDDIR)/%.o : %.cpp
-	$(CPP) $@ -o $<
+	$(CPP) -o $@ $<
 
 clean:
 	rm -rf $(BUILDDIR)
