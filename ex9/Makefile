@@ -1,6 +1,7 @@
 CPP = g++
 
 CPPSRCS = RealObjUnder1.cpp RealObjUnder2.cpp VirtualInternal.cpp MutiInheri1.cpp MultiInheri2.cpp \
+          MutiInheri3.cpp
 
 BUILDDIR = build
 
