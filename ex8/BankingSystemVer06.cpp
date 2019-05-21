@@ -98,6 +98,10 @@ class NormalAccount: public Account
             Account::Deposit(money);
             Account::Deposit(money*(interRate/100.0));
         }
+        ~NormalAccount()
+        {
+            cout<<"NormalAccount() delete"<<endl;
+        }
 };
 
 class HighCreditAccount:public NormalAccount
@@ -113,6 +117,10 @@ class HighCreditAccount:public NormalAccount
         {
             NormalAccount::Deposit(money);
             Account::Deposit(money*(specialRate/100.0));
+        }
+        ~HighCreditAccount()
+        {
+            cout<<"HighCreditAccount() delete"<<endl;
         }
 };
 
