@@ -1,6 +1,6 @@
 CPP = g++
 
-CPPSRCS = FirstOperationOverloading.cpp OverloadingOperation.cpp
+CPPSRCS = FirstOperationOverloading.cpp OverloadingOperation.cpp GFunctionOverloading.cpp OneOpndOverloading.cpp \
 
 TARGET = 
 
