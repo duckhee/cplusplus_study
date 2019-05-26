@@ -1,7 +1,8 @@
 CPP = g++
 
 CPPSRCS = FirstOperationOverloading.cpp OverloadingOperation.cpp GFunctionOverloading.cpp OneOpndOverloading.cpp \
-          PostOpndOverloading.cpp PointMultipleOperation.cpp CommuMultipleOperation.cpp ConsoleOutput.cpp
+          PostOpndOverloading.cpp PointMultipleOperation.cpp CommuMultipleOperation.cpp ConsoleOutput.cpp IterateConsoleOutput.cpp \
+		  PointConsoleOutput.cpp 
 
 TARGET = 
 
