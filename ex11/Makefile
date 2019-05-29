@@ -1,6 +1,7 @@
 CPP = g++
 
-CPPSRCS = 
+CPPSRCS = FirstOperationOverloading.cpp AssignShallowCopyError.cpp InheritAssignOperation.cpp ImproveInit.cpp ArrayClass.cpp
+
 
 CPP_INC = 
 
