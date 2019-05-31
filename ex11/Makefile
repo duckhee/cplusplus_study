@@ -1,7 +1,7 @@
 CPP = g++
 
-CPPSRCS = FirstOperationOverloading.cpp AssignShallowCopyError.cpp InheritAssignOperation.cpp ImproveInit.cpp ArrayClass.cpp
-
+CPPSRCS = FirstOperationOverloading.cpp AssignShallowCopyError.cpp InheritAssignOperation.cpp ImproveInit.cpp ArrayClass.cpp \
+		  StableConstArrayProb.cpp StableConstArraySolu.cpp 
 
 CPP_INC = 
 
